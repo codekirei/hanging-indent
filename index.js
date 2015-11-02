@@ -1,6 +1,6 @@
 'use strict'
 
-function hangingIndent(line, indent, limit, accum) {
+module.exports = function(line, indent, limit, accum) {
   // params and defaults
   indent = indent ? indent : 4
   limit = limit ? limit : 80
@@ -24,5 +24,5 @@ function hangingIndent(line, indent, limit, accum) {
   return accum += line
 }
 
-console.log(hangingIndent(testStr))
+// console.log(hangingIndent(testStr))
 // console.log(hangingIndent(testStr).split('\n').map(line => line.length))
