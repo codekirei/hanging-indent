@@ -1,0 +1,18 @@
+{
+  "name": "hanging-indent",
+  "version": "0.1.0",
+  "description": "format a long string to a hanging-indent paragraph",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "hanging",
+    "indent",
+    "paragraph"
+  ],
+  "author": "Jacob Blakely (codekirei)",
+  "license": "MIT"
+}
