@@ -1,0 +1,44 @@
+'use strict'
+
+//----------------------------------------------------------
+// Modules
+//----------------------------------------------------------
+const chai = require('chai').assert
+const faker = require('faker')
+const hangingIndent = require('../')
+
+//----------------------------------------------------------
+// Tests
+//----------------------------------------------------------
+// create sample texts
+const texts = []
+for (let i = 0; i < 5; i++) {
+  texts.push(
+    faker.fake('{{lorem.paragraphs}}')
+      .replace(/\n/g, ' ')
+      .replace(/\s{2}\r/g, ' ')
+  )
+}
+
+describe('params', () => {
+  describe('indent', () => {
+    it('use default', () => {
+      console.log(texts)
+      // texts
+      //   .map(text => hangingIndent(text))
+        // .map(text => text.split('\n')
+        // .map(text => console.log(text))
+          // for (let i = 1; i < lines.length; i++) {
+          //   assert.isTrue(lines[i].startsWith(' '.repeat(4)))
+          // }
+        // })
+    })
+    it('override with param')
+  })
+  describe('limit')
+})
+describe('lines', () => {
+  it('none over limit')
+  it('indent all except first')
+  it('all but last not same length')
+})
