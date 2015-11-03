@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "format a long string to a hanging-indent paragraph",
   "main": "index.js",
+  "repository": "codekirei/hanging-indent",
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.4.0",
