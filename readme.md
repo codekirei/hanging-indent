@@ -1,5 +1,7 @@
 ![hanging-indent](logo.png)
 ---
+[![Build Status](https://travis-ci.org/codekirei/hanging-indent.svg?branch=master)](https://travis-ci.org/codekirei/hanging-indent)
+[![Coverage Status](https://coveralls.io/repos/codekirei/hanging-indent/badge.svg?branch=master&service=github)](https://coveralls.io/github/codekirei/hanging-indent?branch=master)
 
 <b>[About](#about)</b> | 
 <b>[Installation](#installation)</b> | 
