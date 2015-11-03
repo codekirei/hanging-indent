@@ -1,5 +1,14 @@
 'use strict'
 
+/**
+ * @function hangingIndent
+ * @desc format a string into a paragraph with hanging indents
+ * @param {string} line - source string to format
+ * @param {number} indent - number of spaces to indent lines
+ * @param {number} limit - maximum number of characters on a line
+ * @param {string} accum - internal accumulator string
+ * @returns {string} formatted paragraph with spacing and newlines inserted
+ */
 module.exports = function hangingIndent(line, indent, limit, accum) {
   // params and defaults
   indent = indent ? indent : 4

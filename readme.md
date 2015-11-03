@@ -28,7 +28,7 @@ Viral polaroid cronut etsy photo booth, tousled next level literally. Put a
     ennui trust fund tacos flannel.
 ```
 
-Sample text courtesy [hipster ipsum](http://hipsum.co/).
+Sample text courtesy [hipster ipsum](http://hipsum.co/) :neckbeard:
 
 ## Installation
 
