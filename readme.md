@@ -44,6 +44,26 @@ var hangingIndent = require('hanging-indent')
 
 ## API
 
+### hangingIndent(line, indent, limit)
+
+**Params**
+
+* **line**: line to break into a hanging-indented paragraph
+  * type: string
+  * required: yes
+* **indent**: amount of spaces to indent lines
+  * type: number
+  * required: no
+  * default: 4
+* **limit**: max number of characters that can be in a line
+  * type: number
+  * required: no
+  * default: 80
+
+**Returns**
+
+formatted string with spaces and newlines inserted
+
 ## License
 
 [MIT](license)
