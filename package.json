@@ -1,6 +1,6 @@
 {
   "name": "hanging-indent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "format a long string to a hanging-indent paragraph",
   "main": "index.js",
   "repository": "codekirei/hanging-indent",
